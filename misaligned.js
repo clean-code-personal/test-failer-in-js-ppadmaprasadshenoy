@@ -11,7 +11,7 @@ function print_color_map() {
         }
     }
     //return majorColors.length * minorColors.length;
-    return totalColors;                                                      //Added new
+    return totalColors;                                                      // Added new
 }
 
 result = print_color_map();
