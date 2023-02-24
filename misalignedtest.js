@@ -7,7 +7,6 @@ describe('print_color_map', () => {
   });
   it('should log the correct output', () => {
     print_color_map();
-   // expect(console.log.firstCall.args[0]).equals('0 | Red | Blue');
-    expect(result).equals(5);
+    expect(console.log.firstCall.args[0]).equals('0 | White | Blue');
   });
 });
