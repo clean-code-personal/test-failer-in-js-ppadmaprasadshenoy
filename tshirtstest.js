@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const size = require('./size');
+const size = require('./tshirts');
 
 describe('size function', () => {
   it('should return S for values less than 38', () => {
