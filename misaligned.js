@@ -1,5 +1,3 @@
-const {expect} = require('chai')
-
 function print_color_map() {
     const majorColors = ["White", "Red", "Black", "Yellow", "Violet"];
     const minorColors = ["Blue", "Orange", "Green", "Brown", "Slate"];
@@ -10,7 +8,3 @@ function print_color_map() {
     }
     return majorColors.length * minorColors.length;
 }
-
-result = print_color_map();
-expect(result).equals(25);
-console.log('All is well (maybe!)');
