@@ -12,6 +12,7 @@ describe('size function', () => {
   });
 
   it('should return L for values greater than 42', () => {
+    expect(size(42)).to.equal('L');
     expect(size(43)).to.equal('L');
   });
 });
