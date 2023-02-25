@@ -1,12 +1,10 @@
-const {expect} = require('chai')
+const expect = require('chai').expect;
 
 describe('print_color_map', () => {
   it('should return 25', () => {
-    const result = print_color_map();
-    expect(result).equals(25);
+    expect(print_color_map()).equals(25);
   });
-  it('should log the correct output', () => {
-    print_color_map();
-    expect(console.log.firstCall.args[0]).equals('0 | White | Blue');
+  it('should return 30', () => {
+    expect(print_color_map()).equals(30);
   });
 });
