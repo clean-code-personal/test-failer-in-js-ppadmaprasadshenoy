@@ -6,8 +6,8 @@ describe('print_color_map()', () => {
         expect(result).equals(25);
     });
   
-    it('should return the first item is White | Blue', () => {
-        const result2 = print_color_map();
-        expect(result2[0]).equals("White | Blue");
+   it('should return the first row as "1. White | Blue | 2. Black | Green"', () => {
+    const result = print_color_map();
+    expect(result[0]).equals("1. White | Blue | 2. Black | Green");
     });
 });
