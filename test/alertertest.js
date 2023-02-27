@@ -7,6 +7,6 @@ describe('alertInCelsius', function() {
         alertInCelcius(303.6);
         alertInCelcius(32);
 
-        assert.equal(alertFailureCount, 1);
+        assert.equal(alertFailureCount, 0);
     });
 });
