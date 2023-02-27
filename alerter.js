@@ -1,5 +1,3 @@
-let alertFailureCount = 0;
-
 function networkAlertStub(celcius) {
     console.log(`Alert! Temperature is ${celcius} degrees`);
     // Return 200 for ok
