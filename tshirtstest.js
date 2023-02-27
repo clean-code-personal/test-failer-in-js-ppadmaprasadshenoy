@@ -1,5 +1,5 @@
 const chai = require('chai');
-const size = require('./tshirt');
+const size = require('./tshirts');
 const expect = chai.expect;
 
 expect(size(37)).equals('S');
