@@ -1,7 +1,7 @@
 let alertFailureCount = 0;
 
-function networkAlertStub(celsius) {
-    console.log(`Alert! Temperature is ${celsius} degrees`);
+function networkAlertStub(celcius) {
+    console.log(`Alert! Temperature is ${celcius} degrees`);
     // Return 200 for ok
     // Return 500 for not-ok (random)
     return 200;
@@ -16,6 +16,6 @@ function alertInCelcius(fahrenheit) {
 }
 
 module.exports = {
-    alertInCelcius,
-    alertFailureCount
-};
+       alertInCelcius,
+       alertFailureCount
+  };
