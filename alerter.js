@@ -4,7 +4,10 @@ function networkAlertStub(celcius) {
     console.log(`Alert! Temperature is ${celcius} degrees`);
     // Return 200 for ok
     // Return 500 for not-ok (random)
-    return 200;
+    if(celcius < 200)
+        return 200;
+    else
+        return 500;
 }
 
 function alertInCelcius(fahrenheit) {
@@ -15,7 +18,11 @@ function alertInCelcius(fahrenheit) {
     }
 }
 
+function fetchAlertFailureCount(){
+    return alertFailureCount;
+}
+
 module.exports = {
        alertInCelcius,
-       alertFailureCount
+       fetchAlertFailureCount
   };
